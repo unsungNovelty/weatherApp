@@ -1,0 +1,51 @@
+body {
+    color: #343434;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(10px, auto));
+    align-items: center;
+    justify-items: center;
+}
+
+.item {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+#search {
+    width: 250px;
+}
+
+#form-label {
+    display: none;
+}
+
+#button {
+    background-color: #05A6F0;
+    color: whitesmoke;
+    width: auto;
+}
+
+#button:hover {
+    box-shadow: 0 0 8px 0 #d6d6d6;
+}
+
+#info-box {
+    display: grid;
+    box-shadow: 0 0 8px 0 #d6d6d6;
+    border-radius: 3px;
+    padding: 10px;
+    width: 27rem;
+    height: 10rem;
+    align-items: center;
+    justify-items: center;
+}
